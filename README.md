@@ -1,4 +1,4 @@
-<h1 align="center">Trinca Churras</h1>
+<h1 align="center">Barbecue Schedule</h1>
 
 <img src="public/assets/images/readMeImgs/home.png">
 
