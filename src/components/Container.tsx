@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 export default function Container({ children }: { children: ReactNode }) {
   const pathName = usePathname();
-  const isHome = pathName === "/home";
+  const isHome = pathName.includes("/home");
 
   return (
     <Stack height="100vh" width="100%" minHeight={isHome ? "705px" : ""}>
