@@ -1,18 +1,15 @@
 "use client";
-import { Stack } from "@mui/material";
+import Image from "next/image";
 import Box from "@mui/material/Box";
 
 export default function Footer({}) {
   return (
     <Box mb={5}>
-      <Stack
+      <Image
+        src="/assets/images/logoBarbecue.png"
+        alt="logoBarbecue"
         width={48}
         height={48}
-        alignItems="center"
-        justifyContent="center"
-        sx={{
-          backgroundImage: "url(/assets/images/logoBarbecue.png)",
-        }}
       />
     </Box>
   );

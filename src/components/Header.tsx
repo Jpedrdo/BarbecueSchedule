@@ -10,7 +10,7 @@ export default function Header() {
       alignItems="center"
       justifyContent="center"
       sx={{
-        backgroundImage: "url(/assets/images/headerpattern.png)",
+        backgroundImage: "url(assets/images/headerPattern.png)",
       }}
     >
       <Stack mb={4}>

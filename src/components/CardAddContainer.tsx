@@ -6,6 +6,7 @@ import {
   Stack,
   CardActionArea,
 } from "@mui/material";
+import Image from "next/image";
 
 type Props = {
   handleModalAdd: () => void;
@@ -25,15 +26,12 @@ export default function CardAddContainer({ handleModalAdd }: Props) {
               alignItems="center"
               justifyContent="center"
             >
-              <Stack
+              <Image
+                src="/assets/images/addBarbecue.png"
+                alt="addBarbecue"
                 width={90}
                 height={90}
-                alignItems="center"
-                justifyContent="center"
-                sx={{
-                  backgroundImage: "url(/assets/images/addBarbecue.png)",
-                  backgroundSize: "cover",
-                }}
+                quality={100}
               />
               <Typography
                 sx={{ color: "#3d3d3d", mt: 1 }}
