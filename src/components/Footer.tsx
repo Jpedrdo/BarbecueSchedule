@@ -11,7 +11,7 @@ export default function Footer({}) {
         alignItems="center"
         justifyContent="center"
         sx={{
-          backgroundImage: "url(/assets/images/logoBarbecue.png)",
+          backgroundImage: "url(assets/images/logoBarbecue.png)",
         }}
       />
     </Box>

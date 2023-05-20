@@ -31,7 +31,7 @@ export default function CardAddContainer({ handleModalAdd }: Props) {
                 alignItems="center"
                 justifyContent="center"
                 sx={{
-                  backgroundImage: "url(/assets/images/addBarbecue.png)",
+                  backgroundImage: "url(assets/images/addBarbecue.png)",
                   backgroundSize: "cover",
                 }}
               />
